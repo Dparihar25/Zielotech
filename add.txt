@@ -1,4 +1,11 @@
-hello
-hii
-bye
+#!/bin/bash
+read -p " Enter a number :" NUM
 
+REM=`expr ${NUM} % 2`
+
+if [ ${REM} -eq 0 ]
+ then
+    echo "The ${NUM} is even no."
+else
+    echo "The ${NUM} is odd no."
+fi
