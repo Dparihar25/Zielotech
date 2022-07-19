@@ -1,1 +1,5 @@
-ram
+#!/bin/bash
+
+read -p " Enter a word ; " W
+
+echo " Hello Deepak ${W} is your wife."
